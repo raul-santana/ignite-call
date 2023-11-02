@@ -38,7 +38,7 @@ export default function Register() {
 
   useEffect(() => {
     if (router.query.username) {
-      setValue('username', String(router.query.username))
+      setValue('username', String(router.query.username)) // Passamos o router.query.username para String, pois ele pode pegar mais de 1 caso tenha 2 username na rota ex: http://localhost:3000/register?username=jhon&username=doe
     }
   }, [router.query?.username, setValue])
 
@@ -48,6 +48,8 @@ export default function Register() {
         name: data.name,
         username: data.username,
       })
+
+      await router.push('/register/connect-calendar')
     } catch (err) {
       if (err instanceof AxiosError && err?.response?.data?.message) {
         alert(err.response.data.message)
