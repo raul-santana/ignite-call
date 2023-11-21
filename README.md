@@ -1,5 +1,5 @@
 
-🚀 Ignite Call
+🚀 Ignite Call <br/>
 Bem-vindo ao repositório do Ignite Call! 🌐✨
 
 O Ignite Call é um projeto desenvolvido durante a trilha React do curso Ignite da Rocketseat. Ele proporciona uma maneira eficiente e colaborativa de agendar eventos no Google Agenda, considerando a disponibilidade dos usuários.
