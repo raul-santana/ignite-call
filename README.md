@@ -1,3 +1,11 @@
+Este é o Ignite Call, onde é possível criar um evento no google agenda de um usuário de acordo com a disponibilidade fornecida pelo mesmo.
+O ponto mais alto da aplicação é sem dúvidas o calendário, onde houve todo o cuidado com as regras do negócio, tratar datas e construí-lo de forma independente para que ele não ficasse preso a aplicação e funcionasse como um componente.
+Vale ressaltar também que foi necessário a criação de um adapter do prisma, já que durante a autenticação já temos o nosso usuário criado. Então para solucionar criamos um adapter que adiciona todas as informações de autenticação no usuário já existente.
+
+
+
+#######################################################
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
